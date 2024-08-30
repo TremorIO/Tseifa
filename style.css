@@ -1,0 +1,161 @@
+/*ELEMENTS*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+scroll-bar{
+    background: transparent;
+    width: 5px;
+}
+
+scrollbar-thumb{
+    background: red;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+}
+
+
+
+/*CLASSES*/
+
+.banner{
+    background: url("images/banner_background.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+}
+
+.hero{
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+
+.hero-text{
+    color: rgb(202, 10, 209);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+
+}
+
+.hero-text a{
+    border: 2px solid #0000ff;
+    border-radius: 15%;
+    padding: 1.5%;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.hero-text a span{
+    background-color: #0000ff;
+    border-radius: 15%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: ease-in .4s;
+    width: 0%;
+    z-index: -1;
+} 
+
+.hero-text a:hover{
+    color: #fff;
+}
+
+.hero-text a:hover span{
+    width: 100%;
+}
+
+.hero-text h2{
+    margin-bottom: 5%;
+}
+
+.offering{
+    background: linear-gradient();
+    height: 100vh;
+    width: 100%;
+}
+
+.offering-left{
+    text-align: left;
+}
+
+.offering-right{
+    text-align: right;
+}
+
+.offering-1{
+    background: url("images/training.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-2{
+    background: url("images/office.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-3{
+    background: url("images/stem.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-4{
+    background: url("images/life_coaching.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-5{
+    background: url("images/digital_skills.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-6{
+    background: url("images/career_guidance.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-7{
+    background: url("images/micheile-dot-com-SoT4-mZhyhE-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+}
+.offering-8{
+    background: url("images/shopping.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.offer-text{
+    padding-top: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.preloader{
+    background-image: url("images/preloader.gif");
+    background-size: cover;
+    height: 100vh;
+    position:  fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5%;
+}
+
+.top-nav a{
+    border: 2px solid #d813d8;
+    border-radius: 30%;
+    color: white;
+    padding: 1%;
+    position: relative;
+    text-decoration: none;
+}
+
